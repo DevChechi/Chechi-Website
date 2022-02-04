@@ -1,43 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Web site created using create-react-app" />
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link type="text/css" href="C:\Users\Grahams\Desktop\chechi\src\index.css">
+  <title>Chechi</title>
+</head>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+<body>
+  <script src="C:\Users\Grahams\Desktop\chechi\src\index.js"></script>
+
+  <div class="header_bar">
+    <a href="index.html">
+      <img src="chechilogo.png" alt="logo">
+    </a>
+    <ul>
+      <li class="active"><a href="index.html"><i class="fa fa-home"></i>Home</a></i></li>
+      <li><a href="#"><i class="fa fa-shopping-cart"></i>Products</a></li>
+      <li><a href="#"><i class="fa fa-clone"></i>Services</a></li>
+      <li><a href="#"><i class="fa fa-user"></i>About</a></li>
+      <div class="subheader_bar">
+        <ul>
+          <li><a href="#"></a>Goals</li>
+          <li><a href="#"></a>Objectives</li>
+          <li><a href="#"></a>Team</li>
+        </ul>
+      </div>
+      <li><a href="#"><i class="fa fa-phone"></i>Contacts</a></li>
+
+    </ul>
+  </div>
+
+  <section class="service">
+    <div class="Service_items">
+      <h2>Our Services</h2>
+      <!-- <div id="slider">
+        <img class="mySlides w3-animate-fading" src="eazy2.PNG" style="width: 50%">    
+        <img class="mySlides w3-animate-fading" src="smssub1.PNG" style="width:50%">      
+        <img class="mySlides w3-animate-fading" src="comp.jpg" style="width:50%">
+        <img class="mySlides w3-animate-fading" src="hack.jpg" style="width:50%">
+      </div>  -->
+    </div>
+  </section>
+  <section class="Products">
+    <div class="products1">
+      <h2>Our Products</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed auctor velit. In vel massa est. Aenean
+        efficitur, justo euismod suscipit pulvinar, quam metus placerat ex, a convallis dolor nulla sed risus. Nam
+        molestie id risus ac malesuada. Donec facilisis massa eget dictum lacinia. Duis non ipsum elit. Donec sit amet
+        sodales erat. Pellentesque accumsan nunc sit amet felis convallis auctor. Suspendisse scelerisque faucibus elit
+        vel placerat. Nam accumsan luctus orci, eget finibus urna tempor quis. Aenean tincidunt, felis et pulvinar
+        consequat, nunc leo ultrices erat, eget molestie dolor mauris non sem. Morbi non ornare neque, id commodo
+        dui.<br>
+        Sed quis magna vitae elit mollis tincidunt. Nulla convallis erat vestibulum velit vulputate condimentum. Nullam
+        auctor orci sit amet risus aliquet commodo. Morbi semper blandit mauris. Maecenas dapibus pellentesque mi. Proin
+        malesuada elementum scelerisque. Nunc accumsan tortor odio, nec ultrices est finibus in. Duis vitae orci quis
+        nunc fringilla tempor ac non purus. Cras quis fermentum mauris. Quisque fermentum non orci vitae scelerisque. In
+        porttitor euismod bibendum. Nunc a nulla ultricies dui auctor varius a at turpis. In mi leo, vulputate in
+        tristique vitae, volutpat ac arcu. Maecenas at molestie justo. Vestibulum dignissim sed tellus ac facilisis. Sed
+        tempus est quis mi scelerisque, sed tristique orci pharetra.<br>
+        Aliquam tincidunt dignissim egestas. Aliquam interdum, justo eu vulputate ultrices, nunc dui bibendum ligula, a
+        dignissim turpis odio non augue. Fusce auctor, tellus eu semper ultrices, enim urna accumsan dui, non iaculis
+        magna nunc at ante. Nulla facilisi. Ut tristique urna et dapibus vulputate. Sed egestas elit nec ipsum eleifend
+        pulvinar. Sed hendrerit rhoncus ante ac placerat. Nulla mattis, magna id condimentum imperdiet, mauris dolor
+        hendrerit ipsum, at sollicitudin lorem quam ut risus. Sed molestie odio blandit, sagittis massa in, venenatis
+        ipsum. Nulla lectus elit, dapibus sit amet vulputate et, volutpat id orci. Fusce varius odio non nisl viverra,
+        eu feugiat nibh congue. Sed quam diam, vehicula tempor consectetur ut, sodales et dui.
+      </p>
+    </div>
+  </section>
+  <section class="Team">
+    <div class="team">
+      <h2>Our Team</h2>
+
+    </div>
+
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer_col">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our services</a></li>
+            <li><a href="#">Our Team</a></li>
+          </ul>
+        </div>
+        <div class="footer_col">
+          <h3>Help</h3>
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Enquiries</a></li>
+            <li><a href="#">Suggestions</a></li>
+          </ul>
+        </div>
+        <div class="footer_col">
+          <h3>Follow Us</h3>
+          <div class="social_links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
 </html>
